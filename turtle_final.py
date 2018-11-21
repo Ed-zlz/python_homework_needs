@@ -53,6 +53,11 @@ def Bezier_1(p0, p1, t):
 #     turtle.penup()
 
 def Bezier_3(x0, y0, x1, y1, x2, y2, x3, y3):
+    """
+    三阶贝塞尔函数
+    使用绝对坐标
+    选点(x1,y1),(x2,y2)画曲线连接(x0,y0),(x3,y3)
+    """
     # SVG坐标转换绝对坐标
     x0 = -Width / 2 + x0
     y0 = Height / 2 - y0
